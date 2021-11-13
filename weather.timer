@@ -1,0 +1,9 @@
+[Unit]
+Description=write weather details to a file once a day
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target

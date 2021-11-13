@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+dt=`date '+%d-%m-%Y'`
+filename="weather${dt}"
+
+curl -s wttr.in > $filename 

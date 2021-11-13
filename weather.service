@@ -1,0 +1,8 @@
+[Unit]
+Description=write the output of wttr.in to a file daily
+
+[Service]
+ExecStart=/bin/bash /opt/weatherscript
+
+[Install]
+WantedBy=multi-user.target
